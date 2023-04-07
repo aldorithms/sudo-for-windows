@@ -1,0 +1,1 @@
+function sudo { Start-Process powershell -Verb RunAs -ArgumentList "-Command $($args -join ' ')" }
